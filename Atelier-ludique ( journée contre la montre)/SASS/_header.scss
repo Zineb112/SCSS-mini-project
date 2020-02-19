@@ -11,7 +11,8 @@
   .hero{
     background-color: $footer-color;
     background-image: url('/images/bg-hero-desktop.svg');
-    height: 85vh;
+    height: 100%;
+    width: 100%;
   }
   .hero__bar{
   @include flex();
@@ -47,6 +48,10 @@
     img {
       overflow: hidden;
       width: 100%;
+      padding-bottom: 10%;
+
+    
+
       
     }
   }

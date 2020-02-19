@@ -18,7 +18,8 @@ body {
 .hero {
   background-color: #ebfbff;
   background-image: url("/images/bg-hero-desktop.svg");
-  height: 85vh; }
+  height: 100%;
+  width: 100%; }
 
 .hero__bar {
   display: flex;
@@ -49,7 +50,8 @@ body {
     flex: 1; }
     .hero__main-content .hero__right img {
       overflow: hidden;
-      width: 100%; }
+      width: 100%;
+      padding-bottom: 10%; }
 
 @media screen and (max-width: 800px) {
   .hero {
@@ -175,3 +177,86 @@ body {
   background-color: #ff7ace; }
   .hero__btn--accent:hover {
     background-color: #ff52bf; }
+
+.footer {
+  background-color: #00252e;
+  color: #ebfbff; }
+  .footer__main {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5em; }
+  .footer__col-1 {
+    width: 35%;
+    margin-right: 10em; }
+    .footer__col-1 div {
+      display: grid;
+      grid-template-columns: 1fr  11fr;
+      justify-content: center; }
+      .footer__col-1 div a {
+        margin: 0 0 2em 0; }
+  .footer__col-1-link {
+    color: #ebfbff;
+    font-weight: bold;
+    font-size: 15px;
+    text-decoration: none; }
+  .footer__col-2 a {
+    margin-bottom: 2em;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "feature-text feature-img-cont"; }
+  .footer__col-2-link {
+    color: #ebfbff;
+    font-weight: bold;
+    font-size: 15px;
+    text-decoration: none; }
+  .footer__col-3 a {
+    margin-bottom: 2em;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "feature-text feature-img-cont"; }
+  .footer__col-3-link {
+    color: #ebfbff;
+    font-weight: bold;
+    font-size: 15px;
+    text-decoration: none; }
+  .footer__col-4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-items: baseline;
+    color: #ebfbff; }
+  .footer__social-link {
+    padding: 10px;
+    margin: 10px;
+    color: #808d99;
+    border: 1px solid #808d99;
+    border-radius: 50%; }
+  .footer__copyright {
+    text-align: right;
+    font-size: 12px;
+    font-weight: bold; }
+
+.attribution {
+  font-weight: bold; }
+
+@media screen and (max-width: 1024PX) {
+  .footer {
+    background-color: #00252e;
+    color: #ebfbff; }
+    .footer__main {
+      flex-direction: column;
+      align-items: flex-start; }
+    .footer__col-1 {
+      width: 100%;
+      margin-bottom: 2em; }
+    .footer__col-2 {
+      width: 100%;
+      margin-bottom: 2em; }
+    .footer__col-3 {
+      width: 100%;
+      margin-bottom: 2em; }
+    .footer__col-4 {
+      width: 100%;
+      margin-bottom: 2em; }
+    .footer__copyright {
+      text-align: center; } }
