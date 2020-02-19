@@ -1,0 +1,86 @@
+@import 'variables';
+//mixin pour l'alignement flexbox 
+@mixin flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+ 
+  .hero{
+    background-color: $footer-color;
+    background-image: url('/images/bg-hero-desktop.svg');
+    height: 100%;
+    width: 100%;
+  }
+  .hero__bar{
+  @include flex();
+    justify-content: space-between;
+    padding: 2.5rem 0;
+  }
+.hero__main-content{
+    padding: 3rem 0;
+    display: flex;
+    width: 100%;
+  .hero__left{
+    color: $text-color-primary;
+    flex: 1;
+    padding: 4rem 0;
+    width: 90%;
+
+    
+    h1 {
+      font-family: $ff-poppins;
+      font-weight: 600;
+    }
+
+    p {
+      font-family: $ff-open-sans;
+      font-weight: 400;
+      margin-top: 1rem;
+      margin-bottom: 3rem;
+      margin-right: 3rem;
+    }
+  }
+  .hero__right{
+    flex: 1;
+    img {
+      overflow: hidden;
+      width: 100%;
+      padding-bottom: 10%;
+
+    
+
+      
+    }
+  }
+  }
+
+  @media screen and (max-width: 800px) {
+    
+    .hero{
+      height: 100%;
+  
+    }
+    .hero__main-content{
+        flex-direction: column;
+        @include flex();
+        .hero__left{
+            order: 1;
+            text-align: center;
+  
+            h2 {
+              margin-bottom: 2rem;
+            }
+      
+            p {
+              font-size: 24px;
+             
+            }
+        }
+    }
+    .hero__right{
+        order: 2;
+    }
+}

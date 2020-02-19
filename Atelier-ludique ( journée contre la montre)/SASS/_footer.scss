@@ -1,0 +1,141 @@
+@import 'variables';
+@mixin responsive($arg) {
+  @media screen and (max-width: $arg) {
+    @content;
+  }
+}
+// mixin col-link
+@mixin col {
+  color: $footer-color; 
+  font-weight: bold;
+  font-size: 15px; 
+  text-decoration: none; 
+}
+.footer{
+  background-color: $text-color-primary; 
+  color: $footer-color; 
+  &__main{
+      display: flex;
+      justify-content: space-between;
+      padding-top: 5em  ;
+     
+  }
+
+  &__col-1{
+      width: 35%;
+      margin-right: 10em;
+      div{
+          display: grid;
+          grid-template-columns: 1fr  11fr;
+          justify-content: center;
+          a{
+              margin: 0 0 2em 0;
+          }
+        }  
+      
+  
+  }
+
+  
+
+  &__col-1-link{
+      @include col;
+     
+  }
+
+  &__col-2{
+
+      a{
+          
+           margin-bottom: 2em;
+           
+          @include grid;
+      }   
+  }
+
+  &__col-2-link{
+      @include col;
+     
+  
+  }
+  
+  &__col-3{
+      a{
+          margin-bottom: 2em;
+           
+          @include grid;
+      }
+  }
+
+  &__col-3-link{
+      @include col;
+     
+  }
+  
+  &__col-4{
+      @include flex;
+      align-items: baseline;
+      color: $footer-color;
+      // margin-bottom: 10em;
+  }
+
+  
+&__social-link{
+  padding: 10px;
+  margin: 10px;
+  color: $text-color-secondary;
+  border: 1px solid $text-color-secondary;
+  border-radius: 50%;
+}
+
+&__copyright{
+  text-align: right;
+  font-size: 12px;
+  font-weight: bold;
+}
+}
+
+.attribution{
+  font-weight: bold;
+}
+
+@include responsive(1024PX){
+  .footer{
+      background-color: $text-color-primary; 
+      color: $footer-color; 
+      &__main{
+          flex-direction: column;
+          align-items: flex-start;
+          
+        
+      }
+
+      &__col-1{
+          width: 100%;
+          margin-bottom: 2em;
+      }
+
+      &__col-2{
+          width: 100%;
+          margin-bottom: 2em;
+      }
+
+      &__col-3{
+          width: 100%;
+          margin-bottom: 2em;
+      }
+
+      &__col-4{
+       width: 100%;
+       margin-bottom: 2em;
+      }
+
+      &__copyright{
+          text-align: center;
+      }
+
+      
+
+  
+  }
+}

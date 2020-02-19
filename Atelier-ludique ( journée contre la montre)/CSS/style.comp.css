@@ -14,3 +14,249 @@ body {
   width: 100%;
   margin: 0 auto;
   padding: 0 2rem; }
+
+.hero {
+  background-color: #ebfbff;
+  background-image: url("/images/bg-hero-desktop.svg");
+  height: 100%;
+  width: 100%; }
+
+.hero__bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2.5rem 0; }
+
+.hero__main-content {
+  padding: 3rem 0;
+  display: flex;
+  width: 100%; }
+  .hero__main-content .hero__left {
+    color: #00252e;
+    flex: 1;
+    padding: 4rem 0;
+    width: 90%; }
+    .hero__main-content .hero__left h1 {
+      font-family: "Poppins", sans-serif;
+      font-weight: 600; }
+    .hero__main-content .hero__left p {
+      font-family: "Open Sans", sans-serif;
+      font-weight: 400;
+      margin-top: 1rem;
+      margin-bottom: 3rem;
+      margin-right: 3rem; }
+  .hero__main-content .hero__right {
+    flex: 1; }
+    .hero__main-content .hero__right img {
+      overflow: hidden;
+      width: 100%;
+      padding-bottom: 10%; }
+
+@media screen and (max-width: 800px) {
+  .hero {
+    height: 100%; }
+  .hero__main-content {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .hero__main-content .hero__left {
+      order: 1;
+      text-align: center; }
+      .hero__main-content .hero__left h2 {
+        margin-bottom: 2rem; }
+      .hero__main-content .hero__left p {
+        font-size: 24px; }
+  .hero__right {
+    order: 2; } }
+
+.main__features {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: "feature-text feature-img-cont";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.8rem;
+  justify-content: space-between;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  height: 20rem;
+  width: 90%;
+  margin: 3rem auto;
+  padding: 4rem;
+  padding-left: 7rem; }
+  .main__features .main__feature-text {
+    padding: 2rem 0;
+    flex: 1 30px; }
+    .main__features .main__feature-text h2 {
+      font-family: "Poppins", sans-serif;
+      font-weight: 200;
+      padding-bottom: 2rem; }
+    .main__features .main__feature-text p {
+      color: #808d99;
+      font-family: #808d99;
+      line-height: 1.4rem; }
+  .main__features .main__feature-img-cont {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%; }
+    .main__features .main__feature-img-cont img {
+      object-fit: contain;
+      width: 350px;
+      height: 300px; }
+
+.main__features-reverse {
+  flex-direction: row-reverse; }
+
+.banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border-radius: 0.8rem;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  flex-direction: column;
+  height: 13rem;
+  width: 50%;
+  padding: 0rem;
+  left: 50%;
+  transform: translate(50%, 34%); }
+
+@media screen and (max-width: 800px) {
+  .main__features {
+    flex-direction: column;
+    height: 100%;
+    text-align: center;
+    padding: 3rem 4rem 1rem 4rem; }
+  .main__feature-img-cont {
+    order: 1;
+    padding-bottom: 3rem; }
+  .main__feature-text {
+    order: 2; }
+    .main__feature-text h2 {
+      margin-bottom: 2rem; }
+    .main__feature-text p {
+      font-size: 24px; }
+  .banner {
+    text-align: center;
+    width: 90%;
+    height: 21rem;
+    transform: translate(20px, 75px); } }
+
+.hero__btn {
+  border: 0;
+  border-radius: 2rem;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  color: inherit;
+  padding: 1rem 4rem;
+  text-decoration: none;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 0.3s cubic-bezier(0.645, 0.045, 0.355, 1); }
+
+.her__btn:focus,
+.hero__btn:active {
+  outline: none; }
+
+.hero__btn--light {
+  background-color: white;
+  color: #00252e; }
+  .hero__btn--light:hover {
+    background-color: #00252e;
+    color: #ebfbff; }
+
+.hero__btn--accent {
+  margin-top: 3rem;
+  color: #ebfbff;
+  background-color: #ff7ace; }
+  .hero__btn--accent:hover {
+    background-color: #ff52bf; }
+
+.footer {
+  background-color: #00252e;
+  color: #ebfbff; }
+  .footer__main {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5em; }
+  .footer__col-1 {
+    width: 35%;
+    margin-right: 10em; }
+    .footer__col-1 div {
+      display: grid;
+      grid-template-columns: 1fr  11fr;
+      justify-content: center; }
+      .footer__col-1 div a {
+        margin: 0 0 2em 0; }
+  .footer__col-1-link {
+    color: #ebfbff;
+    font-weight: bold;
+    font-size: 15px;
+    text-decoration: none; }
+  .footer__col-2 a {
+    margin-bottom: 2em;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "feature-text feature-img-cont"; }
+  .footer__col-2-link {
+    color: #ebfbff;
+    font-weight: bold;
+    font-size: 15px;
+    text-decoration: none; }
+  .footer__col-3 a {
+    margin-bottom: 2em;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "feature-text feature-img-cont"; }
+  .footer__col-3-link {
+    color: #ebfbff;
+    font-weight: bold;
+    font-size: 15px;
+    text-decoration: none; }
+  .footer__col-4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-items: baseline;
+    color: #ebfbff; }
+  .footer__social-link {
+    padding: 10px;
+    margin: 10px;
+    color: #808d99;
+    border: 1px solid #808d99;
+    border-radius: 50%; }
+  .footer__copyright {
+    text-align: right;
+    font-size: 12px;
+    font-weight: bold; }
+
+.attribution {
+  font-weight: bold; }
+
+@media screen and (max-width: 1024PX) {
+  .footer {
+    background-color: #00252e;
+    color: #ebfbff; }
+    .footer__main {
+      flex-direction: column;
+      align-items: flex-start; }
+    .footer__col-1 {
+      width: 100%;
+      margin-bottom: 2em; }
+    .footer__col-2 {
+      width: 100%;
+      margin-bottom: 2em; }
+    .footer__col-3 {
+      width: 100%;
+      margin-bottom: 2em; }
+    .footer__col-4 {
+      width: 100%;
+      margin-bottom: 2em; }
+    .footer__copyright {
+      text-align: center; } }
