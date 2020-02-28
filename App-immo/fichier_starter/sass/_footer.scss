@@ -2,6 +2,7 @@
 
 
 .item7{
+    font-weight: 900;
     &__wrapper{
         background-color: $color-primary;
         text-align: center;
@@ -26,6 +27,7 @@
         height: 40px;
         text-align: left;
         padding-left: 10px;
+        
     }
     a{
         color: black;
@@ -42,4 +44,40 @@
     &__list--items{
         padding-bottom: 10px;
     }
+}
+@media only screen and (min-width: 1024px){
+    .wrapper{
+        &__list--items{
+            display: inline;
+            padding: 45px;
+        }
+}
+.item7{
+    &__logo{
+        display: block;
+        margin: 40px auto;
+    }
+    button{
+        display: inline;
+        width: 150px;
+
+    }
+    p{
+        float: left;
+        margin-top: 30px;    
+        padding-left: 45px;
+        padding-right: 80px;
+    }
+    a{
+        float: left;
+        margin-top: 30px; 
+
+
+    }
+    input{
+        width: 320px;
+        margin-right: 20px;
+    }
+}
+
 }
