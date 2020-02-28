@@ -1,0 +1,20 @@
+
+@import 'variables';
+
+.btn--subscribe{
+    background-color: $footer-color;
+    border: none;
+    color:$color-dark;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 16px;
+    width: 200px;
+    height: 40px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    text-align: left;
+    padding-left: 10px;
+}

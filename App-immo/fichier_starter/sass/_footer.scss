@@ -1,0 +1,45 @@
+@import 'variables';
+
+
+.item7{
+    &__wrapper{
+        background-color: $color-primary;
+        text-align: center;
+    }
+
+    &__wrapper--list ul{
+        list-style: none;
+        padding-top: 30px;
+
+    }
+    &__logo--size{
+        width: 50%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    input{
+        border: none;
+        background-color: $footer-color;
+        color:$color-dark;
+        font-size: 16px;
+        width: 200px;
+        height: 40px;
+        text-align: left;
+        padding-left: 10px;
+    }
+    a{
+        color: black;
+        margin-bottom: 20px;
+        font-size: 23px;
+
+    }
+    p{
+        font-size: 23px;
+        margin-bottom: 20px;
+    }
+}
+.wrapper{
+    &__list--items{
+        padding-bottom: 10px;
+    }
+}
