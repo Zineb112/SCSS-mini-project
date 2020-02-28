@@ -16,12 +16,9 @@
     grid-template-columns: 10% auto;
   
     grid-auto-rows: minmax(200px ,auto);
-    background-color: blue;
+   
   }
-  .container > div{
-    background-color: skyblue;
-
-  }
+  
   .item1 {
   grid-row-start: 1;
   grid-row-end: 7;
