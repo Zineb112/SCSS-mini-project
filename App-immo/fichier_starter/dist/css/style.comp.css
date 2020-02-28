@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:600&display=swap%22");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap%22");
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box; }
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px; }
+
+.container {
+  max-width: 1280px;
+  width: 100%; }
+
+.container {
+  display: grid;
+  grid-template-columns: 10% auto;
+  grid-auto-rows: minmax(200px, auto);
+  background-color: blue; }
+
+.container > div {
+  background-color: skyblue; }
+
+.item1 {
+  grid-row-start: 1;
+  grid-row-end: 7; }
