@@ -1,0 +1,185 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:600&display=swap%22");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap%22");
+* {
+  margin: 0%;
+  padding: 0%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 18px;
+}
+
+.container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 10% auto;
+      grid-template-columns: 10% auto;
+  grid-auto-rows: minmax(200px, auto);
+}
+
+.item1 {
+  -ms-grid-row: 1;
+      grid-row-start: 1;
+  grid-row-end: 7;
+}
+
+.item1 {
+  background-color: #f1935c;
+}
+
+.item7 {
+  font-weight: 900;
+}
+
+.item7__wrapper {
+  background-color: #f1935c;
+  text-align: center;
+}
+
+.item7__wrapper--list ul {
+  list-style: none;
+  padding-top: 30px;
+}
+
+.item7__logo--size {
+  width: 50%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.item7 input {
+  border: none;
+  background-color: #ebfbff;
+  color: #313131;
+  font-size: 16px;
+  width: 200px;
+  height: 40px;
+  text-align: left;
+  padding-left: 10px;
+}
+
+.item7 a {
+  color: black;
+  margin-bottom: 20px;
+  font-size: 23px;
+}
+
+.item7 p {
+  font-size: 23px;
+  margin-bottom: 20px;
+}
+
+.wrapper__list--items {
+  padding-bottom: 10px;
+}
+
+@media only screen and (min-width: 1024px) {
+  .wrapper__list--items {
+    display: inline;
+    padding: 45px;
+  }
+  .item7__logo {
+    display: block;
+    margin: 40px auto;
+  }
+  .item7 button {
+    display: inline;
+    width: 150px;
+  }
+  .item7 p {
+    float: left;
+    margin-top: 30px;
+    padding-left: 45px;
+    padding-right: 80px;
+  }
+  .item7 a {
+    float: left;
+    margin-top: 30px;
+  }
+  .item7 input {
+    width: 320px;
+    margin-right: 20px;
+  }
+}
+
+.maison {
+  width: 1000PX;
+  margin: auto;
+  margin-top: 100px;
+}
+
+.maison_card img {
+  width: 100%;
+}
+
+.maison_card {
+  background-color: white;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6);
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  width: 300px;
+  text-align: center;
+  font-size: 16px;
+  font-family: sans-serif;
+  float: left;
+  margin: 10px;
+}
+
+.maison_card h3 {
+  margin-top: 1em;
+}
+
+.maison_card .icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-top: 1em;
+}
+
+.maison_card button {
+  background-color: #ba6b57;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  opacity: 0.6;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  margin-top: 10%;
+}
+
+input[type=button] {
+  margin-top: -3em;
+  margin-left: 2em;
+  width: 10em;
+  height: 2.4em;
+}
+
+.btn--subscribe {
+  background-color: #ebfbff;
+  border: none;
+  color: #313131;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 16px;
+  width: 200px;
+  height: 40px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  text-align: left;
+  padding-left: 10px;
+  cursor: pointer;
+}
+/*# sourceMappingURL=main.css.map */
