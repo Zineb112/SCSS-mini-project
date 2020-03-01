@@ -45,6 +45,10 @@
     &__list--items{
         padding-bottom: 1rem;
     }
+    &__list--link{
+        text-decoration: none;
+        color: $color-dark;
+    }
     &__list--link:hover{
         border-bottom: 0.2em solid darken($color-gry, 5%) ;
         border-bottom-width: thick;

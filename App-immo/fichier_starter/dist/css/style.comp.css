@@ -55,6 +55,10 @@ body {
 .wrapper__list--items {
   padding-bottom: 1rem; }
 
+.wrapper__list--link {
+  text-decoration: none;
+  color: #313131; }
+
 .wrapper__list--link:hover {
   border-bottom: 0.2em solid #343335;
   border-bottom-width: thick;
