@@ -4612,7 +4612,9 @@ h1 {
     display: grid;
     grid-template-columns: repeat(3 33.33%); }
     .maison_card {
-      width: 20%; } }
+      margin-left: 8%;
+      width: 80%;
+      padding-top: 4%; } }
 
 .item4 {
   display: grid;
