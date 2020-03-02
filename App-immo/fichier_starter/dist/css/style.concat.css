@@ -4662,7 +4662,6 @@ a:visited {
   text-decoration: none; }
 
 .modal {
-  background-color: rgba(0, 0, 0, 0.8);
   width: 100%;
   height: 100vh;
   position: absolute;
@@ -4703,7 +4702,7 @@ a:visited {
   right: 1em; }
 
 .modal__heading {
-  color: dodgerblue;
+  color: #f1935c;
   margin-bottom: 1em; }
 
 .modal__paragraph {
@@ -4711,8 +4710,13 @@ a:visited {
 
 .modal-open {
   display: inline-block;
-  color: dodgerblue;
+  color: #f1935c;
   margin: 2em; }
+
+.modal__email {
+  display: block;
+  justify-content: center;
+  margin-bottom: 5%; }
 
 .item4 {
   display: grid;
