@@ -65,17 +65,29 @@
     </div>
    <!-----------------------------------------Book with me---------------------------------------------->
     <div class="item4">
-     book with me
+      <h1 class="item4__title">Story_Clients and book</h1>
+     <div class="item4__img">
+       <img class="item4__img--img1" src="img/gal-7.jpeg" alt="story-image">
+       <img class="item4__img--img2" src="img/gal-4.jpeg" alt="story-image">
+     </div>
+     <div class="item4__story">
+       <h4>Client Heureux</h4>
+       <p>Proin ex ipsum, facilisis id tincidunt sed, vulputate in lacus. 
+         Donec pharetra faucibus leo, vitae vestibulum leo scelerisque eu.
+         Proin ex ipsum, facilisis id tincidunt sed, vulputate in lacus. 
+          Donec pharetra faucibus leo, vitae vestibulum leo scelerisque eu</p>
+          <button class="view"><i class="far fa-eye"></i>view</button>
+     </div>
     </div>
      <!-----------------------------------------Maisons---------------------------------------------->
   
      <section class=maison> 
+
+      <h1>Maisons</h1>
       <div class="maison_card">
-        <img src="img/gal-2.jpeg">
-        <input type="button" value="Maison de familles">
-        
-    
-      <div class="icon">
+        <img src="img/house-1.jpeg">
+        <input   class="Btn" type="button" value="Maison de familles">
+        <div class="icon">
         <h3><i class="fas fa-map-marker-alt"></i> Maroc</h3>
         <h3><i class="fas fa-user"></i> 4 rooms</h3>
       </div>
@@ -86,10 +98,12 @@
         <button><i class="fas fa-phone-volume"></i> Contacter agents 
         </button>
       </div>
+
+
+
       <div class="maison_card">
-        <img src="img/gal-2.jpeg">
-        <input type="button" value="Villas">
-       
+        <img src="img/house-5.jpeg">
+        <input  class="Btn" type="button" value="Villas">
         <div class="icon">
         <h3><i class="fas fa-map-marker-alt"></i> Maroc</h3>
         <h3><i class="fas fa-user"></i> 8 rooms</h3>
@@ -99,12 +113,14 @@
         <h3><i class="fas fa-tags"></i>100M MAD</h3>
         </div>
         <button><i class="fas fa-phone-volume"></i> Contacter agents </button>
-
       </div>
+
+
+
+
       <div class="maison_card">
-        <img src="img/gal-2.jpeg">
-        <input type="button" value="Maison d'hotes">
-        
+        <img src="img/house-4.jpeg">
+        <input class="Btn" type="button" value="Maison d'hotes">
         <div class="icon">
         <h3><i class="fas fa-map-marker-alt"></i> Maroc</h3>
         <h3><i class="fas fa-user"></i> 10 rooms</h3>
@@ -114,11 +130,11 @@
         <h3><i class="fas fa-tags"></i>180M MAD</h3>
         </div>
         <button><i class="fas fa-phone-volume"></i> Contacter agents </button>
-
       </div>
+
       <div class="maison_card">
-        <img src="img/gal-2.jpeg">
-        <input type="button" value="Villa luxe">
+        <img src="img/house-4.jpeg">
+        <input  class="Btn" type="button" value="Villa luxe">
           <div class="icon">
           <h3><i class="fas fa-map-marker-alt"></i> Maroc</h3>
           <h3><i class="fas fa-user"></i> 12 rooms</h3>
@@ -129,9 +145,11 @@
           </div>
           <button><i class="fas fa-phone-volume"></i> Contacter agents </button>
       </div>
+
+
       <div class="maison_card">
-        <img src="img/gal-2.jpeg">
-        <input type="button" value="Palace">
+        <img src="img/gal-11.jpeg">
+        <input class="Btn" type="button" value="Palace">
         <div class="icon">
         <h3><i class="fas fa-map-marker-alt"></i> Maroc</h3>
         <h3><i class="fas fa-user"></i> 20 rooms</h3>
@@ -142,9 +160,10 @@
         </div>
         <button><i class="fas fa-phone-volume"></i> Contacter agents </button>
       </div>
+
       <div class="maison_card">
-        <img src="img/gal-2.jpeg">
-        <input type="button" value="Modern appart">
+        <img src="img/gal-9.jpeg">
+        <input class="Btn"  type="button" value="Modern appart">
         <div class="icon">
         <h3><i class="fas fa-map-marker-alt"></i> Maroc</h3>
         <h3><i class="fas fa-user"></i> 5 rooms</h3>
@@ -153,14 +172,53 @@
         <h3><i class="fas fa-location-arrow"></i>240m²</h3>
         <h3><i class="fas fa-tags"></i>70M MAD</h3>
         </div>
-        <button><i class="fas fa-phone-volume"></i> Contacter agents </button>
+
+
+        <div class="Contact" >
+          
+  
+        <a href="#modal" class="modal-open"><button><i class="fas fa-phone-volume"></i> Contacter agents </button></a>
+        <div class="modal" id="modal">
+           <div class="modal__content">
+             <a href="#" class="modal__close">&times;</a>
+             <h2 class="modal__heading">Contactez Age</h2>
+             <h2 class="modal__paragraph">Contactez votre agent</h2>
+             <input class="modal__email" type="email" placeholder="Nom complet">
+             <input class="modal__email" type="email" placeholder="Email">
+           </div>
+        </div>
+       </div>
+
+
 
       </div>
     </section>
  <!-----------------------------------------Gallerie---------------------------------------------->
-    <div class="item6">
-      gallerie    
-      </div>
+
+ 
+ <div class="gallery-section">
+   
+     <h1>gallery</h1>
+     
+  <div class="gallery">
+    <figure class="gallery__item gallery__item--1">
+        <img src="./img/gal-14.jpeg" alt="Gallery image 1" class="gallery__img">
+    </figure>
+    <figure class="gallery__item gallery__item--2">
+        <img src="./img/gal-2.jpeg" alt="Gallery image 2" class="gallery__img">
+    </figure>
+    <figure class="gallery__item gallery__item--3">
+        <img src="./img/gal-9.jpeg" alt="Gallery image 3" class="gallery__img">
+    </figure>
+    <figure class="gallery__item gallery__item--4">
+        <img src="./img/gal-5.jpeg" alt="Gallery image 4" class="gallery__img">
+    </figure>
+    <figure class="gallery__item gallery__item--5">
+        <img src="./img/story-2.jpeg" alt="Gallery image 5" class="gallery__img">
+    </figure>
+</div>
+
+</div>
    <!-----------------------------------------Footer---------------------------------------------->
     <div class="item7">
      <div class="item7__wrapper">
