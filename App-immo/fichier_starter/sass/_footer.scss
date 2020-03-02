@@ -7,8 +7,8 @@
         background-color: $color-primary;
         text-align: center;
     }
-
     &__wrapper--list ul{
+        text-transform: uppercase;
         list-style: none;
         padding-top: 30px;
 
@@ -18,7 +18,7 @@
         margin-top: 20px;
         margin-bottom: 20px;
     }
-    input{
+    &__info--email{
         border: none;
         background-color: $footer-color;
         color:$color-dark;
@@ -27,22 +27,32 @@
         height: 40px;
         text-align: left;
         padding-left: 10px;
-        
     }
-    a{
+    &__info--email:focus{
+        background-color: $color-accent;
+        font-weight: 700;
+    }
+    &__info--youcode{
         color: black;
-        margin-bottom: 20px;
-        font-size: 23px;
+        margin-top: 20px;
+    }
+    &__info--youcode:hover{
+        text-decoration: underline;
+    }
 
-    }
-    p{
-        font-size: 23px;
-        margin-bottom: 20px;
-    }
 }
 .wrapper{
     &__list--items{
-        padding-bottom: 10px;
+        padding-bottom: 1rem;
+    }
+    &__list--link{
+        text-decoration: none;
+        color: $color-dark;
+    }
+    &__list--link:hover{
+        border-bottom: 0.2em solid darken($color-gry, 5%) ;
+        border-bottom-width: thick;
+        color: ($footer-color, 15%);
     }
 }
 @media only screen and (min-width: 1024px){
@@ -52,32 +62,34 @@
             padding: 45px;
         }
 }
-.item7{
+    .item7{
+    &__wrapper--list ul{
+        font-size: 1rem;
+    }
+    &__info{
+        display: grid;
+        grid-template-columns: 25% 25% 25% 25%;
+    }
     &__logo{
         display: block;
         margin: 40px auto;
     }
-    button{
-        display: inline;
-        width: 150px;
+    &__info--copyright{
+        font-size: 18px;
+        margin: auto;
+        grid-area: 1/2;
+    }
+    &__info--youcode{
+        font-size: 20px;
+        margin: auto;
+        grid-area: 1/1;
+    }
+    &__info--email{
+        margin: auto;
+        width: 300px;
+        grid-area: 1/3;
+    }
 
-    }
-    p{
-        float: left;
-        margin-top: 30px;    
-        padding-left: 45px;
-        padding-right: 80px;
-    }
-    a{
-        float: left;
-        margin-top: 30px; 
-
-
-    }
-    input{
-        width: 320px;
-        margin-right: 20px;
-    }
 }
 
 }
