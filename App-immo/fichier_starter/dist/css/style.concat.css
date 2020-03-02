@@ -4482,6 +4482,11 @@ body {
   grid-row-start: 1;
   grid-row-end: 7; }
 
+h1 {
+  padding-top: 3%;
+  text-align: center;
+  color: #414042; }
+
 .item1 {
   background-color: #f1935c; }
 
