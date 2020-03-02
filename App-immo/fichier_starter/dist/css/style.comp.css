@@ -102,8 +102,7 @@ h1 {
 
 .gallery__img {
   width: 100%;
-  height: 100%;
-  object-fit: cover; }
+  height: 100%; }
 
 .gallery__item--1 {
   grid-column-start: 2;
