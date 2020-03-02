@@ -21,6 +21,13 @@ body {
 .item1 {
   background-color: #f1935c; }
 
+.item4 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px; }
+
 .item7 {
   font-weight: 900; }
   .item7__wrapper {
@@ -67,7 +74,7 @@ body {
 @media only screen and (min-width: 1024px) {
   .wrapper__list--items {
     display: inline;
-    padding: 45px; }
+    padding: 30px; }
   .item7__wrapper--list ul {
     font-size: 1rem; }
   .item7__info {
