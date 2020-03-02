@@ -50,6 +50,22 @@
         &__story{
             grid-area: 3/1;
         }
+        &__img--img2{
+            width: 62%;
+            height: 61%;
+        }
+        &__story{
+            p{
+            font-size: 2em;
+            margin-bottom: 3%;
+            margin-right: 50px;
+            margin-left: 50px;
+            }
+            h4{
+                font-size: 2em;
+            }
+        }
+
 
     }
 }

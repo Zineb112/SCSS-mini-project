@@ -291,7 +291,17 @@ a:visited {
       display: block;
       grid-area: 2/1; }
     .item4__story {
-      grid-area: 3/1; } }
+      grid-area: 3/1; }
+    .item4__img--img2 {
+      width: 62%;
+      height: 61%; }
+    .item4__story p {
+      font-size: 2em;
+      margin-bottom: 3%;
+      margin-right: 50px;
+      margin-left: 50px; }
+    .item4__story h4 {
+      font-size: 2em; } }
 
 .item7__info--subscribe, .item4__story .view {
   text-transform: uppercase;
