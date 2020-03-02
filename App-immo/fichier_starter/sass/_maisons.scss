@@ -165,8 +165,21 @@ margin: 2em;
 
 .modal__email{
 display: block;
-justify-content: center;
+margin-left: auto;
+margin-right: auto;
 margin-bottom: 5%;
+border: solid $color-gry;
+color:$color-dark;
+font-size: 16px;
+width: 200px;
+height: 40px;
+text-align: left;
+padding-left: 10px;
+
+}
+
+h2{
+    margin-bottom: 5%;
 }
 
 

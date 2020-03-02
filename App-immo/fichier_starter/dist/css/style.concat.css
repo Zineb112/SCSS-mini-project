@@ -4566,8 +4566,7 @@ h1 {
 
 .gallery__img {
   width: 100%;
-  height: 100%;
-  object-fit: cover; }
+  height: 100%; }
 
 .gallery__item--1 {
   grid-column-start: 2;
@@ -4715,7 +4714,18 @@ a:visited {
 
 .modal__email {
   display: block;
-  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5%;
+  border: solid #414042;
+  color: #313131;
+  font-size: 16px;
+  width: 200px;
+  height: 40px;
+  text-align: left;
+  padding-left: 10px; }
+
+h2 {
   margin-bottom: 5%; }
 
 .item4 {
