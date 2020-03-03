@@ -4828,7 +4828,8 @@ label #cancel {
 .maison {
   width: 1000PX;
   margin: auto;
-  margin-top: 100px; }
+  margin-top: 1%;
+  margin-left: 7%; }
   .maison_card img {
     width: 100%; }
   .maison_card {
@@ -4964,9 +4965,6 @@ h2 {
 
 .modal__SEND {
   margin-top: 20%; }
-
-#modal {
-  background-color: 0; }
 
 .item4 {
   display: grid;
