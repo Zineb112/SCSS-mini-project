@@ -1,5 +1,6 @@
 
 @import 'variables';
+
 %button{
     text-transform: uppercase;
     background-color: $footer-color;
@@ -14,16 +15,23 @@
     cursor: pointer;
     margin: 20px auto;
 }
+//////mixin///////
+@mixin hover {
+    &:hover {
+        box-shadow: 0px 15px 20px $color-dark;
+        color: $footer-color;
+        background-color: $color-accent;
+        transform: translateY(-7px);
+
+    }
+  }
 
 .item7{
 &__info--subscribe{
  @extend %button;
-}
-&__info--subscribe:hover{
-    box-shadow: 0px 15px 20px $color-dark;
-    color: $footer-color;
-    background-color: $color-accent;
-    transform: translateY(-7px);
+ @include hover();
+
+
 }
 }
 
@@ -38,8 +46,10 @@
 }
 .item4__story{
     .view{
-        @extend %button;
         background-color: $color-secondary;
+        @extend %button;
+        @include hover();
+    
+}
 
-    }
 }
