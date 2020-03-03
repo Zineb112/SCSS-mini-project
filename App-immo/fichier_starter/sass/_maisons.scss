@@ -87,8 +87,12 @@
             width: 80%;
             padding-top: 4%;
         }
-        
-   
+       
+        .Btn{
+
+            font-size: 200%;
+        }
+
     }
 }
 
@@ -102,8 +106,6 @@ a:visited{
 }
 
 .modal{
-    
-
  width:100%;
  height: 100vh;
  position: absolute;
@@ -116,8 +118,8 @@ a:visited{
 }
 
 .modal__content{
- width: 75%;
- height: 65%;
+ width: 60%;
+ height: 75%;
  background-color: #fff;
  position: absolute;
  top: 50%;
@@ -167,7 +169,7 @@ margin: 2em;
 display: block;
 margin-left: auto;
 margin-right: auto;
-margin-bottom: 5%;
+margin-bottom: 2%;
 border: solid $color-gry;
 color:$color-dark;
 font-size: 16px;
@@ -179,8 +181,20 @@ padding-left: 10px;
 }
 
 h2{
-    margin-bottom: 5%;
+    margin-bottom: 2%;
+    
 }
 
+.modal__checkbox{
+
+    padding-right: 1%;
+    margin-top: 3%;
+    margin-bottom: auto;
+}
+
+.modal__SEND{
+    margin-top: 20%;
+   
+}
 
 
