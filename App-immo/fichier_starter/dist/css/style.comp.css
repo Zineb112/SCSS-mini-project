@@ -353,7 +353,7 @@ label #cancel {
     left: 0;
     width: 100%;
     margin: 0; }
-  img {
+  .figure > img {
     object-fit: cover;
     position: absolute;
     top: 0;
