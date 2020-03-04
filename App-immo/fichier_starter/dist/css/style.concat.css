@@ -4660,7 +4660,7 @@ label #cancel {
   box-sizing: border-box; }
 
 .contact {
-  background-image: url("/App-immo/fichier_starter/dist/img/house-3.jpeg");
+  background-image: url("/App-immo/fichier_starter/dist/img/story-2.jpeg");
   height: 100vh; }
 
 h2 {
@@ -4673,7 +4673,8 @@ h2 {
 h3 {
   color: #414042;
   text-align: center;
-  margin-bottom: 5%; }
+  margin-bottom: 5%;
+  color: #ebfbff; }
 
 .frm {
   margin-left: 41%; }
@@ -4681,6 +4682,18 @@ h3 {
 .modal__email {
   width: 32%;
   height: 2em; }
+
+button {
+  margin-left: 7%;
+  background-color: #f1935c;
+  border: none;
+  width: 10em;
+  height: 4em;
+  border-radius: 1em;
+  box-shadow: 4px 4px 10px 1px #e7b2a5; }
+
+.modal__checkbox {
+  color: #ebfbff; }
 
 .item7 {
   font-weight: 900; }

@@ -6,7 +6,7 @@
 
   .contact{
 
-    background-image: url("/App-immo/fichier_starter/dist/img/house-3.jpeg");
+    background-image: url("/App-immo/fichier_starter/dist/img/story-2.jpeg");
     height: 100vh;
    
   }
@@ -24,6 +24,7 @@ h3{
     color: $color-gry;
     text-align: center;
     margin-bottom: 5%;
+    color:$footer-color ;
 }
 
 .frm
@@ -35,9 +36,23 @@ h3{
 .modal__email{
     width: 32%;
     height: 2em;
+   
 }
 
+button{
+  margin-left: 7%;
+  background-color:$color-primary ;
+  border: none;
+  width: 10em;
+  height: 4em;
+  border-radius: 1em;
+  box-shadow: 4px 4px 10px 1px $color-accent;
 
 
+}
+ .modal__checkbox{
+  color:$footer-color ;
+
+ }
 
 
