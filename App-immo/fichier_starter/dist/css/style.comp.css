@@ -220,7 +220,7 @@ h3 {
   height: 2em; }
 
 button {
-  margin-left: 7%;
+  margin-left: 6%;
   background-color: #f1935c;
   border: none;
   width: 10em;
@@ -229,6 +229,10 @@ button {
 
 .modal__checkbox {
   color: #ebfbff; }
+
+@media only screen and (max-width: 800px) {
+  .modal__checkbox {
+    display: block; } }
 
 .item7 {
   font-weight: 900; }
