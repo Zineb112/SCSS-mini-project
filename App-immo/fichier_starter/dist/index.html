@@ -17,23 +17,9 @@
   <body class="container">
     <!-----------------------------------------Sidebar---------------------------------------------->
     <div class="item1">
-      <input type="checkbox" id="check">
-      <label for="check">
-        <i class="fas fa-bars" id="btn"></i>
-        <i class="fas fa-times" id="cancel"></i>
-      </label>
-      <div class="sidebar">
-
-    <ul>
-      <li><a href="#">Maison de réves</a></li>
-      <li><a href="#">Proposition</a></li>
-      <li><a href="#">Plan</a></li>
-      <li><a href="#">Contactez-nous</a></li>
-      <li><a href="#">Soumettez votre</a></li>
-      <li><a href="#">Nous rejoindre</a></li>
-    </ul>
-  </div>
-  </div>
+      sidebar
+  
+    </div>
      <!-----------------------------------------Header---------------------------------------------->
      <header class="home">
        
@@ -169,9 +155,10 @@
       <article id="salma">
         <h1 class="titre">FEATURES</h1>
         <div class="cards">
-          <div class="card">
+
+          <div class="card ">
             <div class="card__icon">
-              <i class="fas fa-globe-americas"></i>
+              <i class="fas fa-globe-americas" style="width: 50px; height: auto;"></i>
             </div>
             <div class="card__content">
               <div class="card__content--title">meilleurs choix des maisons</div>
@@ -186,7 +173,7 @@
     
           <div class="card">
             <div class="card__icon">
-              <i class="fas fa-trophy"></i>
+              <i class="fas fa-trophy " style="width: 50px; height: auto;"></i>
             </div>
             <div class="card__content">
               <div class="card__content--title">meilleurs choix des terrains</div>
@@ -200,7 +187,7 @@
     
           <div class="card">
             <div class="card__icon">
-              <i class="fas fa-map-marker-alt"></i>
+              <i class="fas fa-map-marker-alt" style="width: 50px; height: auto;"></i>
             </div>
             <div class="card__content">
               <div class="card__content--title">Emplacement de reves</div>
@@ -214,7 +201,7 @@
     
           <div class="card">
             <div class="card__icon">
-              <i class="fas fa-lock"></i>
+              <i class="fas fa-lock" style="width: 50px; height: auto;"></i>
             </div>
             <div class="card__content">
     
@@ -230,7 +217,7 @@
     
           <div class="card">
             <div class="card__icon">
-              <i class="fab fa-angular"></i>
+              <i class="fab fa-angular" style="width: 50px; height: auto;"></i>
             </div>
             <div class="card__content">
     
@@ -245,7 +232,7 @@
     
           <div class="card">
             <div class="card__icon">
-              <i class="fa fa-key" aria-hidden="true"></i>
+              <i class="fa fa-key" aria-hidden="true" style="width: 50px; height: auto;"></i>
             </div>
             <div class="card__content">
               <div class="card__title">
@@ -284,24 +271,28 @@
      <section class=maison> 
 
       <h1>Maisons</h1>
-
       <div class="maison_card">
         <img src="img/house-1.jpeg">
-        <input class="Btn"  type="button" value="Maison de familles">
+        <input   class="Btn" type="button" value="Maison de familles">
         <div class="icon">
         <h3><i class="fas fa-map-marker-alt"></i> Maroc</h3>
         <h3><i class="fas fa-user"></i> 4 rooms</h3>
-        </div>
-        <div class="icon">
+      </div>
+      <div class="icon">
         <h3><i class="fas fa-location-arrow"></i>230m²</h3>
         <h3><i class="fas fa-tags"></i>50M MAD</h3>
         </div>
+        <button><i class="fas fa-phone-volume"></i> Contacter agents 
+        </button>
+      </div>
+
+
         <button><i class="fas fa-phone-volume"></i> Contacter agents </button>
         </div>
 
-       <div class="maison_card">
+      <div class="maison_card">
         <img src="img/house-5.jpeg">
-        <input class="Btn"  type="button" value="Villa">
+        <input  class="Btn" type="button" value="Villas">
         <div class="icon">
         <h3><i class="fas fa-map-marker-alt"></i> Maroc</h3>
         <h3><i class="fas fa-user"></i> 8 rooms</h3>
@@ -311,11 +302,16 @@
         <h3><i class="fas fa-tags"></i>100M MAD</h3>
         </div>
         <button><i class="fas fa-phone-volume"></i> Contacter agents </button>
+      </div>
+
+
+        <a href="Contact.html" target="_blank"><button><i class="fas fa-phone-volume"></i> Contacter agents </button></a>
        </div>
 
-       <div class="maison_card">
+
+      <div class="maison_card">
         <img src="img/house-4.jpeg">
-        <input class="Btn"  type="button" value="Maison d'hotes">
+        <input class="Btn" type="button" value="Maison d'hotes">
         <div class="icon">
         <h3><i class="fas fa-map-marker-alt"></i> Maroc</h3>
         <h3><i class="fas fa-user"></i> 10 rooms</h3>
@@ -325,6 +321,22 @@
         <h3><i class="fas fa-tags"></i>180M MAD</h3>
         </div>
         <button><i class="fas fa-phone-volume"></i> Contacter agents </button>
+      </div>
+
+      <div class="maison_card">
+        <img src="img/house-4.jpeg">
+        <input  class="Btn" type="button" value="Villa luxe">
+          <div class="icon">
+          <h3><i class="fas fa-map-marker-alt"></i> Maroc</h3>
+          <h3><i class="fas fa-user"></i> 12 rooms</h3>
+          </div>
+          <div class="icon">  
+          <h3><i class="fas fa-location-arrow"></i>1200m²</h4>
+          <h3><i class="fas fa-tags"></i>220M MAD</h5>
+          </div>
+          <button><i class="fas fa-phone-volume"></i> Contacter agents </button>
+      </div>
+
        </div>
 
        <div class="maison_card">
@@ -341,9 +353,9 @@
         <button><i class="fas fa-phone-volume"></i> Contacter agents </button>
        </div>
 
-       <div class="maison_card">
+      <div class="maison_card">
         <img src="img/gal-11.jpeg">
-        <input class="Btn"  type="button" value="Palace">
+        <input class="Btn" type="button" value="Palace">
         <div class="icon">
         <h3><i class="fas fa-map-marker-alt"></i> Maroc</h3>
         <h3><i class="fas fa-user"></i> 20 rooms</h3>
@@ -353,6 +365,7 @@
         <h3><i class="fas fa-tags"></i>300M MAD</h3>
         </div>
         <button><i class="fas fa-phone-volume"></i> Contacter agents </button>
+      </div>
        </div>
 
       <div class="maison_card">
@@ -366,39 +379,54 @@
         <h3><i class="fas fa-location-arrow"></i>240m²</h3>
         <h3><i class="fas fa-tags"></i>70M MAD</h3>
         </div>
+
+
+        <div class="Contact" >
+          
+  
+        <a href="#modal" class="modal-open"><button><i class="fas fa-phone-volume"></i> Contacter agents </button></a>
+        <div class="modal" id="modal">
+           <div class="modal__content">
+             <a href="#" class="modal__close">&times;</a>
+             <h2 class="modal__heading">Contactez Age</h2>
+             <h2 class="modal__paragraph">Contactez votre agent</h2>
+             <input class="modal__email" type="email" placeholder="Nom complet">
+             <input class="modal__email" type="email" placeholder="Email">
+           </div>
+        </div>
         <button><i class="fas fa-phone-volume"></i> Contacter agents </button>
        </div>
-     
+
+
+
+      </div>
     </section>
  <!-----------------------------------------Gallerie---------------------------------------------->
 
- <div class="item6">
-   <h1>display window</h1>
-
-   
  
+ <div class="gallery-section">
+   
+     <h1>gallery</h1>
+     
   <div class="gallery">
-      <figure class="gallery__item gallery__item--1">
-          <img src="./img/gal-1.jpeg" alt="Gallery image 1" class="gallery__img">
-      </figure>
-      <figure class="gallery__item gallery__item--2">
-          <img src="./img/gal-14.jpeg" alt="Gallery image 2" class="gallery__img">
-      </figure>
-      <figure class="gallery__item gallery__item--3">
-          <img src="./img/gal-10.jpeg" alt="Gallery image 3" class="gallery__img">
-      </figure>
-      <figure class="gallery__item gallery__item--4">
-          <img src="./img/gal-2.jpeg" alt="Gallery image 4" class="gallery__img">
-      </figure>
-      <figure class="gallery__item gallery__item--5">
-          <img src="./img/gal-3.jpeg" alt="Gallery image 5" class="gallery__img">
-      </figure>
-      <figure class="gallery__item gallery__item--6">
-          <img src="./img/gal-4.jpeg" alt="Gallery image 6" class="gallery__img">
-      </figure>
-  </div>
+    <figure class="gallery__item gallery__item--1">
+        <img src="./img/gal-14.jpeg" alt="Gallery image 1" class="gallery__img">
+    </figure>
+    <figure class="gallery__item gallery__item--2">
+        <img src="./img/gal-2.jpeg" alt="Gallery image 2" class="gallery__img">
+    </figure>
+    <figure class="gallery__item gallery__item--3">
+        <img src="./img/gal-9.jpeg" alt="Gallery image 3" class="gallery__img">
+    </figure>
+    <figure class="gallery__item gallery__item--4">
+        <img src="./img/gal-5.jpeg" alt="Gallery image 4" class="gallery__img">
+    </figure>
+    <figure class="gallery__item gallery__item--5">
+        <img src="./img/story-2.jpeg" alt="Gallery image 5" class="gallery__img">
+    </figure>
 </div>
 
+</div>
    <!-----------------------------------------Footer---------------------------------------------->
     <div class="item7">
      <div class="item7__wrapper">
