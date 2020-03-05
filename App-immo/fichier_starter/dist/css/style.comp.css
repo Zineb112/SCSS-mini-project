@@ -196,7 +196,7 @@ label #cancel {
   box-sizing: border-box; }
 
 .contact {
-  background-image: url("/App-immo/fichier_starter/dist/img/story-2.jpeg");
+  background-image: url("/dist/img/story-2.jpeg");
   height: 100vh; }
 
 h2 {
