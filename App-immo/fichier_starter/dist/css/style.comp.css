@@ -92,6 +92,11 @@
       height: 7em;
       margin-top: 20%; }
 
+@media only screen and (max-width: 800px) {
+  .home {
+    display: block;
+    clear: both; } }
+
 * {
   margin: 0%;
   padding: 0%;
@@ -515,21 +520,33 @@ button {
 
 .cards {
   display: grid;
-  grid-template-columns: repeat(3, 33.33%); }
+  grid-template-columns: repeat(3, 33.33%);
+  justify-content: center; }
   .cards .card {
     display: flex;
     padding: 3em; }
     .cards .card:hover {
       background-color: #e7b2a5;
       border-radius: 20px; }
-    .cards .cardicon {
-      font-size: 100%;
-      padding: 0,6rem;
-      margin: 50%; }
-    .cards .cardcontent {
+    .cards .card__icon {
+      padding: 0,6rem; }
+      .cards .card__icon i {
+        width: 50px;
+        height: auto; }
+    .cards .card__content {
       font-size: 1em;
       padding-top: 1em;
       text-align: center; }
+
+@media only screen and (max-width: 1100px) {
+  .cards {
+    grid-template-columns: repeat(2, 40%);
+    justify-content: center; } }
+
+@media only screen and (max-width: 900px) {
+  .cards {
+    grid-template-columns: repeat(1, 36%);
+    justify-content: center; } }
 
 .item7__info--subscribe, .item4__story .view {
   text-transform: uppercase;

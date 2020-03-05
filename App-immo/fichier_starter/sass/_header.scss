@@ -42,6 +42,7 @@
             font-size: 2em;
             color: #000000;
             text-align: center;
+    
         }
 
     }
@@ -144,4 +145,10 @@
     }
    
     
-   
+    @media only screen and (max-width: 800px) {
+        .home{
+        display: block;
+        clear: both;
+
+        }
+      }
