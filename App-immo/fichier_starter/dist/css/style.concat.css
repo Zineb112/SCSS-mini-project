@@ -4659,6 +4659,41 @@ label #cancel {
 #check:checked ~ section {
   display: none; }
 
+.contact {
+  background-image: url("/dist/img/story-2.jpeg");
+  height: 100vh; }
+
+h2 {
+  text-decoration: none;
+  color: #f1935c;
+  text-align: center;
+  margin-bottom: 5%;
+  padding-top: 5%; }
+
+h3 {
+  color: #414042;
+  text-align: center;
+  margin-bottom: 5%;
+  color: #414042; }
+
+.frm {
+  margin-left: 41%; }
+
+.modal__email {
+  width: 32%;
+  height: 2em; }
+
+button {
+  margin-left: 7%;
+  background-color: #f1935c;
+  border: none;
+  width: 10em;
+  height: 4em;
+  border-radius: 1em; }
+
+.modal__checkbox {
+  color: #ebfbff; }
+
 .item7 {
   font-weight: 900; }
   .item7__wrapper {
