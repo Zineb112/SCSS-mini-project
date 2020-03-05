@@ -4,6 +4,7 @@
 .cards {
     display: grid;
     grid-template-columns: repeat(3, 33.33%);
+    justify-content: center;
     .card {
       display: flex;
       padding: 3em;
@@ -13,16 +14,35 @@
         border-radius: 20px;
       }
 
-      &icon {
-        font-size: 100%;
+      &__icon {
+        
         padding: 0,6rem;
-        margin: 50%;
+        i{
+            width: 50px;
+            height: auto;
+        }
+        
       }
 
-      &content {
+
+
+
+      &__content {
         font-size: 1em;
         padding-top: 1em;
         text-align: center;
       }
     }
   }
+  @media only screen and (max-width: 1100px) {
+    .cards {
+      grid-template-columns: repeat(2, 40%);
+      justify-content: center;
+    }
+}
+    @media only screen and (max-width: 900px) {
+    .cards {
+      grid-template-columns: repeat(1, 36%);
+      justify-content: center;
+    }
+}
