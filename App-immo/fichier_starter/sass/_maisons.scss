@@ -1,9 +1,11 @@
 
   .maison{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
     width: 1000PX;
-    margin: auto;
     margin-top: 1%;
-    margin-left: 7%;
+   
 
     &_card img{
         width: 100%;
