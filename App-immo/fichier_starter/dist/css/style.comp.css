@@ -508,7 +508,8 @@ label #cancel {
   width: 200px;
   height: 40px;
   cursor: pointer;
-  margin: 20px auto; }
+  margin: 20px auto;
+  border-radius: 1em; }
 
 .item7__info--subscribe:hover {
   box-shadow: 0px 15px 20px #313131;
