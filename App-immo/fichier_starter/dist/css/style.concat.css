@@ -4699,10 +4699,6 @@ button {
 .modal__checkbox {
   color: #ebfbff; }
 
-@media only screen and (max-width: 800px) {
-  .modal__checkbox {
-    display: block; } }
-
 .item7 {
   font-weight: 900; }
   .item7__wrapper {
@@ -4922,7 +4918,8 @@ button {
   margin-left: 5%;
   width: 10em;
   height: 2.4em;
-  border: none; }
+  border: none;
+  transform: translate(-3%, -9px); }
 
 @media only screen and (max-width: 800px) {
   .maison {
