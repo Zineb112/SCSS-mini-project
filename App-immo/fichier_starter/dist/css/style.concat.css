@@ -4918,7 +4918,8 @@ button {
   margin-left: 5%;
   width: 10em;
   height: 2.4em;
-  border: none; }
+  border: none;
+  transform: translate(-3%, -9px); }
 
 @media only screen and (max-width: 800px) {
   .maison {
@@ -4993,14 +4994,16 @@ button {
     .cards .card:hover {
       background-color: #e7b2a5;
       border-radius: 20px; }
-    .cards .cardicon {
-      font-size: 100%;
-      padding: 0,6rem;
-      margin: 50%; }
-    .cards .cardcontent {
-      font-size: 1em;
-      padding-top: 1em;
-      text-align: center; }
+
+@media only screen and (max-width: 1100px) {
+  .cards {
+    grid-template-columns: repeat(2, 40%);
+    justify-content: center; } }
+
+@media only screen and (max-width: 800px) {
+  .cards {
+    grid-template-columns: repeat(2, 36%);
+    justify-content: center; } }
 
 .item7__info--subscribe, .item4__story .view {
   text-transform: uppercase;
