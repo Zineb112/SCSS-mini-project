@@ -4662,7 +4662,9 @@ label #cancel {
 @media only screen and (max-width: 800px) {
   label #btn {
     left: -5px;
-    font-size: 60px; } }
+    font-size: 60px; }
+  #check:checked ~ label #cancel {
+    left: 250%; } }
 
 .contact {
   background-image: url("/dist/img/story-2.jpeg");
@@ -4994,11 +4996,8 @@ button {
     .cards .card:hover {
       background-color: #e7b2a5;
       border-radius: 20px; }
-
-@media only screen and (max-width: 1100px) {
-  .cards {
-    grid-template-columns: repeat(2, 40%);
-    justify-content: center; } }
+    .cards .card__content {
+      margin-left: 4%; }
 
 @media only screen and (max-width: 800px) {
   .cards {
