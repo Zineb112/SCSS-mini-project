@@ -4495,12 +4495,14 @@ readers do not read off random characters that represent icons */
   to {
     width: 100%; } }
   .home__title {
-    grid-area: 2 / 1 / 3 / 5;
-    margin-left: 10em; }
+    grid-area: 2 / 1 / 3 / 5; }
     .home__title p {
       font-size: 2em;
       color: #313131;
-      text-align: center; }
+      text-align: center;
+      margin-right: 30px; }
+    .home__title h1 {
+      margin-right: 30px; }
   .home__title--btn {
     text-transform: uppercase;
     background-color: #ba6b57;
@@ -4515,7 +4517,8 @@ readers do not read off random characters that represent icons */
     width: 200px;
     height: 40px;
     cursor: pointer;
-    left: 5px; }
+    margin-right: 41%;
+    margin-top: 2%; }
   .home__title--logos {
     grid-area: 3 / 1 / 4 / 5;
     display: inline;
@@ -4570,7 +4573,9 @@ readers do not read off random characters that represent icons */
 @media only screen and (max-width: 800px) {
   .home {
     display: block;
-    clear: both; } }
+    clear: both; }
+    .home__title--logos img {
+      margin-left: 5%; } }
 
 * {
   margin: 0%;
