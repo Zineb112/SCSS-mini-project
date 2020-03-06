@@ -21,15 +21,10 @@
   /* The typewriter cursor effect */ }
   .home__typewriter {
     overflow: hidden;
-    /* Ensures the content is not revealed until the animation */
     border-right: .15em solid transparent;
-    /* The typwriter cursor */
     white-space: nowrap;
-    /* Keeps the content on a single line */
     margin: 0 auto;
-    /* Gives that scrolling effect as the typing happens */
     letter-spacing: .15em;
-    /* Adjust as needed */
     animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite; }
 
 @keyframes typing {
@@ -75,14 +70,13 @@
       font-size: 2em;
       color: white;
       margin-top: 1em;
-      text-align: center;
-      text-transform: uppercase; }
+      text-align: center; }
     .home__title--logos h4.no-span {
       display: table;
       white-space: nowrap; }
     .home__title--logos h4.no-span:before,
     .home__title--logos h4.no-span:after {
-      border-top: 0.08em solid #ba6b57;
+      border-top: 0.07em solid #ba6b57;
       content: '';
       display: table-cell;
       position: relative;
@@ -245,11 +239,11 @@ label #cancel {
   right: 0;
   transition: opacity 500ms;
   visibility: hidden;
-  opacity: 0;
+  opacity: 1;
   z-index: 2;
   width: 82%;
   height: 81%;
-  margin-left: 5em;
+  margin-left: 8em;
   margin-top: 3em;
   text-align: center; }
   .booking__img1 {

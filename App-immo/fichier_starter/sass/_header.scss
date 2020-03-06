@@ -95,7 +95,7 @@
             color: white;
             margin-top: 1em;
             text-align: center;
-            text-transform: uppercase;
+          
           }
           
           h4.no-span {
@@ -104,7 +104,7 @@
           }
           h4.no-span:before,
           h4.no-span:after {
-            border-top: 0.08em  solid $color-secondary;
+            border-top: .07em  solid $color-secondary;
             
             content: '';
             display: table-cell;
