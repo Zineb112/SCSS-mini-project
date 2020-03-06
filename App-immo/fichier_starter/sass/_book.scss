@@ -2,22 +2,22 @@
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     grid-template-rows: repeat(4, 1fr);
-    grid-column-gap: 0px;
-    grid-row-gap: 0px;
-    background-color:  gray;
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
+    background-color: black;
     visibility: hidden;
     position: fixed;
     top: 0;
     bottom: 0;
-    left: 0;
+    left: 7em;
     right: 0;
-    transition: opacity 500ms;
+    // transition: opacity 500ms;
     visibility: hidden;
-    opacity: 0;
-    z-index: 2;
-    width:  82%;
-    height: 81%;
-   margin-left: 5em;
+    // opacity: 1;
+    z-index: 200;
+    width:  75%;
+    height: 75%;
+    margin-left: 3em;
     margin-top: 3em;
    
     text-align: center;
@@ -56,10 +56,12 @@
     &__txt1{
         grid-area: 2 / 3 / 4 / 5;
         padding-top: 2em;
+        color: white;
     }
     &__txt2{
         grid-area:  2 / 5 / 4 / 7; 
         padding-top: 2em;
+        color: white;
     }
     &__btn{
         grid-area: 4 / 3 / 5 / 7;
@@ -116,7 +118,7 @@
     //     transition: all 0.3s ease-out;
     //   }
       .modal2__close{
-        color: #363636;
+        color: $color-secondary;
         font-size: 2em;
         position: absolute;
         top: .5em;
@@ -124,7 +126,6 @@
        }
        .modal2-open{
         display: inline-block;
-        color: dodgerblue;
         margin: 2em;
        }
        #modal2:target{
@@ -137,6 +138,7 @@
         opacity: 1;
         visibility: visible;
        }
+       
     @media only screen and (max-width: 800px) {
         .booking{
             display: block;

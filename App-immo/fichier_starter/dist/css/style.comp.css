@@ -223,22 +223,20 @@ label #cancel {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   grid-template-rows: repeat(4, 1fr);
-  grid-column-gap: 0px;
-  grid-row-gap: 0px;
-  background-color: gray;
+  grid-column-gap: 5px;
+  grid-row-gap: 5px;
+  background-color: black;
   visibility: hidden;
   position: fixed;
   top: 0;
   bottom: 0;
-  left: 0;
+  left: 7em;
   right: 0;
-  transition: opacity 500ms;
   visibility: hidden;
-  opacity: 0;
-  z-index: 2;
-  width: 82%;
-  height: 81%;
-  margin-left: 5em;
+  z-index: 200;
+  width: 75%;
+  height: 75%;
+  margin-left: 3em;
   margin-top: 3em;
   text-align: center; }
   .booking__img1 {
@@ -262,10 +260,12 @@ label #cancel {
       color: #5b9bd5; }
   .booking__txt1 {
     grid-area: 2 / 3 / 4 / 5;
-    padding-top: 2em; }
+    padding-top: 2em;
+    color: white; }
   .booking__txt2 {
     grid-area: 2 / 5 / 4 / 7;
-    padding-top: 2em; }
+    padding-top: 2em;
+    color: white; }
   .booking__btn {
     grid-area: 4 / 3 / 5 / 7;
     text-align: center; }
@@ -291,7 +291,7 @@ label #cancel {
   opacity: 1; }
 
 .modal2__close {
-  color: #363636;
+  color: #ba6b57;
   font-size: 2em;
   position: absolute;
   top: .5em;
@@ -299,7 +299,6 @@ label #cancel {
 
 .modal2-open {
   display: inline-block;
-  color: dodgerblue;
   margin: 2em; }
 
 #modal2:target {
