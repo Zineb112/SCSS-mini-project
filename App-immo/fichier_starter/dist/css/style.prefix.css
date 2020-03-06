@@ -4820,12 +4820,6 @@ h2 {
   margin-bottom: 5%;
   padding-top: 5%; }
 
-h3 {
-  color: #414042;
-  text-align: center;
-  margin-bottom: 5%;
-  color: #414042; }
-
 .frm {
   margin-left: 41%; }
 
@@ -4833,7 +4827,7 @@ h3 {
   width: 32%;
   height: 2em; }
 
-button {
+.SN {
   margin-left: 6%;
   background-color: #f1935c;
   border: none;
@@ -4843,6 +4837,20 @@ button {
 
 .modal__checkbox {
   color: #ebfbff; }
+
+@media only screen and (max-width: 800px) {
+  .frm {
+    margin-left: 21%;
+    margin-top: 16%; }
+  .modal__email {
+    margin-left: 7%;
+    margin-top: 5%;
+    height: 3em;
+    width: 14em; }
+  .modal__heading {
+    padding-top: 26%; }
+  .SN {
+    margin-left: 14%; } }
 
 .item7 {
   font-weight: 900; }
@@ -5079,7 +5087,7 @@ button {
     .maison_card button {
       background-color: #ba6b57;
       border: none;
-      color: white;
+      color: #ebfbff;
       padding: 16px 32px;
       text-align: center;
       font-size: 1em;
@@ -5090,7 +5098,8 @@ button {
       display: inline-block;
       text-decoration: none;
       margin-top: 10%;
-      padding-bottom: 10%; }
+      margin-bottom: 3%;
+      width: 69%; }
 
 .Btn {
   background-color: #ba6b57;
