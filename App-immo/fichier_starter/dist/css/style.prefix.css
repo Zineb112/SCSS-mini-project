@@ -4531,7 +4531,8 @@ readers do not read off random characters that represent icons */
     height: 40px;
     cursor: pointer;
     margin-right: 41%;
-    margin-top: 2%; }
+    margin-top: 2%;
+    border-radius: 1em; }
   .home__title--logos {
     grid-area: 3 / 1 / 4 / 5;
     display: inline;
@@ -4825,7 +4826,7 @@ h2 {
 
 .modal__email {
   width: 32%;
-  height: 2em; }
+  height: 3em; }
 
 .SN {
   margin-left: 6%;
@@ -4836,7 +4837,8 @@ h2 {
   border-radius: 1em; }
 
 .modal__checkbox {
-  color: #ebfbff; }
+  color: #ebfbff;
+  margin-left: 2%; }
 
 @media only screen and (max-width: 800px) {
   .frm {
@@ -5154,8 +5156,8 @@ h2 {
       margin-bottom: 5%;
       font-size: 28px; }
     .item4__story p {
-      font-size: 28px;
-      margin-bottom: 5%;
+      font-size: 20px;
+      margin-bottom: -4%;
       margin-right: 50px;
       margin-left: 50px; }
 
@@ -5173,12 +5175,14 @@ h2 {
       width: 62%;
       height: 61%; }
     .item4__story p {
-      font-size: 2em;
       margin-bottom: 3%;
       margin-right: 50px;
-      margin-left: 50px; }
+      margin-left: 50px;
+      font-size: 29px;
+      margin-bottom: -2%; }
     .item4__story h4 {
-      font-size: 2em; } }
+      font-size: 2em;
+      margin-bottom: 2%; } }
 
 .cards {
   display: grid;
