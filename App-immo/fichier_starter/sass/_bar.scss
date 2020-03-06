@@ -1,4 +1,4 @@
-@import 'variables';
+
 .item1{
     background-color:$color-primary ;
 
@@ -78,7 +78,7 @@
 }
 @media only screen and (max-width: 800px) {
   label #btn{
-    left: -5px;
+    left: -8px;
     font-size: 60px;
   }
   #check:checked ~ label #cancel{

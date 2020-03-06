@@ -4661,7 +4661,7 @@ label #cancel {
 
 @media only screen and (max-width: 800px) {
   label #btn {
-    left: -5px;
+    left: -8px;
     font-size: 60px; }
   #check:checked ~ label #cancel {
     left: 250%; } }
