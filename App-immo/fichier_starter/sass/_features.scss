@@ -1,5 +1,3 @@
-@import'variables';
-
 
 .cards {
     display: grid;
@@ -9,10 +7,17 @@
       padding: 3em;
 
       &:hover {
-        background-color:#e7b2a5;
+        background-color:$color-accent;
         border-radius: 20px;
+        opacity: .7;
       }
+      &__content{
+        margin-left: 4%;
+        padding-bottom: 3%;
+      }
+     
     }
+   
   }
 
 

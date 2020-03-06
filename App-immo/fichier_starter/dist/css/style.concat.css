@@ -4486,10 +4486,10 @@ readers do not read off random characters that represent icons */
     margin-left: 10em; }
     .home__title h1 {
       font-size: 3em;
-      color: #000000; }
+      color: #313131; }
     .home__title p {
       font-size: 2em;
-      color: #000000;
+      color: #313131;
       text-align: center; }
   .home__title--btn {
     text-transform: uppercase;
@@ -4520,7 +4520,7 @@ readers do not read off random characters that represent icons */
       white-space: nowrap; }
     .home__title--logos h4.no-span:before,
     .home__title--logos h4.no-span:after {
-      border-top: 0.08em  solid #ba6b57;
+      border-top: 0.08em solid #ba6b57;
       content: '';
       display: table-cell;
       position: relative;
@@ -4662,7 +4662,9 @@ label #cancel {
 @media only screen and (max-width: 800px) {
   label #btn {
     left: -5px;
-    font-size: 60px; } }
+    font-size: 60px; }
+  #check:checked ~ label #cancel {
+    left: 250%; } }
 
 .contact {
   background-image: url("/dist/img/story-2.jpeg");
@@ -4993,7 +4995,11 @@ button {
     padding: 3em; }
     .cards .card:hover {
       background-color: #e7b2a5;
-      border-radius: 20px; }
+      border-radius: 20px;
+      opacity: .7; }
+    .cards .card__content {
+      margin-left: 4%;
+      padding-bottom: 3%; }
 
 @media only screen and (max-width: 800px) {
   .cards {

@@ -81,4 +81,8 @@
     left: -5px;
     font-size: 60px;
   }
+  #check:checked ~ label #cancel{
+    left:250%;
+  }
+
 }
