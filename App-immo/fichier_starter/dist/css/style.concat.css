@@ -4995,11 +4995,6 @@ button {
       background-color: #e7b2a5;
       border-radius: 20px; }
 
-@media only screen and (max-width: 1100px) {
-  .cards {
-    grid-template-columns: repeat(2, 40%);
-    justify-content: center; } }
-
 @media only screen and (max-width: 800px) {
   .cards {
     grid-template-columns: repeat(2, 36%);
