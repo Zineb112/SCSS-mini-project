@@ -17,9 +17,11 @@
   grid-template-rows: repeat(3, 1fr);
   grid-column-gap: 0px;
   grid-row-gap: 15px;
-  /* The typing effect */ }
+  /* The typing effect */
+  /* The typewriter cursor effect */ }
   .home__typewriter {
     overflow: hidden;
+    border-right: .15em solid transparent;
     white-space: nowrap;
     margin: 0 auto;
     letter-spacing: .15em;
@@ -29,15 +31,19 @@
   from {
     width: 0; }
   to {
-    width: 100%; } }
+    width: 70%; } }
+
+@keyframes blink-caret {
+  from, to {
+    border-color: transparent; }
+  50% {
+    border-color: transparent; } }
   .home__title {
     grid-area: 2 / 1 / 3 / 5; }
     .home__title p {
       font-size: 2em;
       color: #313131;
       text-align: center;
-      margin-right: 30px; }
-    .home__title h1 {
       margin-right: 30px; }
   .home__title--btn {
     text-transform: uppercase;
@@ -64,14 +70,13 @@
       font-size: 2em;
       color: white;
       margin-top: 1em;
-      text-align: center;
-      text-transform: uppercase; }
+      text-align: center; }
     .home__title--logos h4.no-span {
       display: table;
       white-space: nowrap; }
     .home__title--logos h4.no-span:before,
     .home__title--logos h4.no-span:after {
-      border-top: 0.08em solid #ba6b57;
+      border-top: 0.07em solid #ba6b57;
       content: '';
       display: table-cell;
       position: relative;
