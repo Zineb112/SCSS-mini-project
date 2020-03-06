@@ -1,5 +1,5 @@
-@import'variables';
 
+@import 'variables';
 .logo { 
     display: grid;
     justify-items: center;
@@ -34,13 +34,13 @@
         
         h1{
             font-size: 3em;
-            color: #000000;
+            color:$color-dark;
           
 
         }
         p{
             font-size: 2em;
-            color: #000000;
+            color: $color-dark;
             text-align: center;
     
         }
@@ -48,7 +48,7 @@
     }
     &__title--btn{
     text-transform: uppercase;
-    background-color:  #ba6b57;
+    background-color: $color-secondary;
     border: none;
     color:$color-dark;
     text-align: center;
@@ -82,7 +82,7 @@
           }
           h4.no-span:before,
           h4.no-span:after {
-            border-top: 0.08em  solid #ba6b57;
+            border-top: 0.08em  solid $color-secondary;
             
             content: '';
             display: table-cell;
@@ -107,20 +107,20 @@
     }
     &__agents{
         grid-area: 1 / 5 / 4 / 6;
-        background-color: #e7b2a5;
+        background-color: $color-accent;
         h2{
             text-align: center;
             margin-bottom: .5em;
-            color:  #ba6b57;
+            color:  $color-secondary;
             padding-top: 10%;
             
         }
         h3{
             text-align: center;
-            color: #ba6b57;
+            color: $color-secondary;
         }
         p{
-            color :#ba6b57 ;
+            color :$color-secondary ;
             text-align: center;
             
         }
@@ -139,16 +139,13 @@
         }
        
     }
-
-
     
     }
-   
-    
     @media only screen and (max-width: 800px) {
         .home{
         display: block;
         clear: both;
+        
 
-        }
       }
+    }
