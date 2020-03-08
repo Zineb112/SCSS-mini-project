@@ -4837,12 +4837,11 @@ label #cancel {
   left: -1%;
   position: relative;
   transform: translateX(-50%);
-  margin-top: 2rem;
   color: #313131;
   cursor: pointer;
   margin-top: 3em;
   text-align: center;
-  bottom: -10em; }
+  top: 4em; }
 
 a {
   text-decoration: none; }
