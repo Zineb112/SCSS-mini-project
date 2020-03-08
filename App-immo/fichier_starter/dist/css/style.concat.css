@@ -4766,7 +4766,7 @@ label #cancel {
     height: 50%; }
   .modal__titles {
     float: left;
-    margin-left: 28em;
+    margin-left: 30em;
     margin-top: -17em;
     color: #ba6b57; }
   .modal__image img {
@@ -4823,7 +4823,7 @@ label #cancel {
     margin-top: 2rem;
     color: #313131;
     cursor: pointer;
-    margin-left: 30em;
+    margin-left: 31em;
     margin-top: 3em;
     text-align: center; }
 
@@ -4846,6 +4846,30 @@ label #cancel {
 
 a {
   text-decoration: none; }
+
+@media only screen and (max-width: 800px) {
+  .modal__image img {
+    margin-left: -2em;
+    margin-bottom: 1em;
+    width: 100%;
+    height: auto; }
+  .modal__titles {
+    margin-left: 6em;
+    margin-top: 2em; }
+  .modal__paraghraph {
+    position: relative;
+    top: 24em;
+    right: 12em;
+    margin-top: -16em;
+    width: 88%; }
+  .modal .btn-2 {
+    position: relative;
+    left: -17em;
+    top: 21em;
+    margin-bottom: 1em;
+    margin-top: 5em; }
+  .btn {
+    bottom: -3em; } }
 
 .contact {
   background-image: url("/dist/img/story-2.jpeg");

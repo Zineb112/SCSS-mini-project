@@ -51,7 +51,7 @@
  }
  &__titles{
    float: left;
-   margin-left: 28em;
+   margin-left: 30em;
    margin-top: -17em;
    color: $color-secondary;
     
@@ -158,4 +158,34 @@
   }
   a {
     text-decoration: none;
+  }
+
+  @media only screen and (max-width: 800px) {
+  .modal__image img {
+    margin-left: -2em;
+    margin-bottom: 1em;
+    width: 100%;
+    height: auto;
+  }
+  .modal__titles{
+    margin-left: 6em;
+    margin-top: 2em;
+  }
+  .modal__paraghraph {
+    position: relative;
+    top: 24em;
+    right: 12em;
+    margin-top: -16em;
+    width: 88%;
+  }  
+  .modal .btn-2{
+    position: relative;
+    left: -17em;
+    top: 21em;
+    margin-bottom: 1em;
+    margin-top: 5em;
+  }
+  .btn {
+    bottom: -3em;
+  }
   }
