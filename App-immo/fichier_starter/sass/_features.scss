@@ -1,0 +1,32 @@
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(3, 33.33%);
+    .card {
+      display: flex;
+      padding: 3em;
+
+      &:hover {
+        background-color:$color-accent;
+        border-radius: 20px;
+        opacity: .7;
+      }
+      &__content{
+        margin-left: 4%;
+        padding-bottom: 3%;
+      }
+     
+    }
+   
+  }
+
+
+
+
+  @media only screen and (max-width: 800px) {
+  .cards {
+    grid-template-columns: repeat(2, 36%);
+    justify-content: center;
+  }
+}
+  

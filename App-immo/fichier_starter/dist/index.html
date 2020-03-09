@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,400i|Nunito:300,300i" rel="stylesheet">
    <link rel="stylesheet" href="css/style.comp.css">
 
@@ -14,44 +15,366 @@
 </head>
 
   <body class="container">
-    <!-----------------------------------------Sidebar---------------------------------------------->
+  <!-------------------------------------------Start Sidebar---------------------------------------------->
     <div class="item1">
-      sidebar
-  
-    </div>
-     <!-----------------------------------------Header---------------------------------------------->
-  
-    <div class="item2">
-    
-      header
-  
-    </div>
-     <!-----------------------------------------features---------------------------------------------->
-    <div class="item3">
-  
-     features  
-    </div>
-   <!-----------------------------------------Book with me---------------------------------------------->
-    <div class="item4">
-     book with me
-    </div>
-     <!-----------------------------------------Maisons---------------------------------------------->
-  
-    <div class="item5">
-    maisons
-  
-    </div>
- <!-----------------------------------------Gallerie---------------------------------------------->
-    <div class="item6">
-      gallerie    
-      </div>
-   <!-----------------------------------------Footer---------------------------------------------->
-    <div class="item7">
-    footer
-  
-    </div>
-  
+      <input type="checkbox" id="check">
+      <label for="check">
+        <i class="fas fa-bars" id="btn"></i>
+        <i class="fas fa-times" id="cancel"></i>
+      </label>
+      <div class="sidebar">
 
+    <ul>
+      <li><a href="#">Maison de réves</a></li>
+      <li><a href="#">Proposition</a></li>
+      <li><a href="#">Plan</a></li>
+      <li><a href="#">Contactez-nous</a></li>
+      <li><a href="#">Soumettez votre</a></li>
+      <li><a href="#">Nous rejoindre</a></li>
+    </ul>
+  </div>
+  </div>
+  <!----------------------------------------------End Sidebar--------------------------------------------->
+  <!-----------------------------------------------Start Header------------------------------------------->
+     <header class="home">
+       
+      <div class="logo">
+        <img src="/dist/img/logo.png">
+      </div>
+      <div class="home__title">
+  
+  
+        <h1 class="home__typewriter">Mieux acheter, mieux louer</h1>
+        <p>1 <sup>er</sup>site immobilier entre particuliers</p>
+        <button class="home__title--btn">
+          <i class="far fa-eye"></i> View</button>
+      </div>
+
+      <div class="home__title--logos">
+        <h4 class="no-span">Nous font confiance</h4>
+        <img src="img/logo-bbc.png">
+        <img src="img/logo-bi.png">
+        <img src="img/logo-forbes.png">
+        <img src="img/logo-techcrunch.png">
+      </div>
+
+      <div class="home__agents">
+        <h2>Top 3 agents</h2>
+        <div class="home__agents--realtors">
+          <img src="/dist/img/realtor-1.jpeg">
+          <p>tijani</p>
+          <img src="/dist/img/realtor-2.jpeg">
+          <p>salma</p>
+          <img src="/dist/img/realtor-3.jpeg">
+          <p>oussa</p>
+        </div>
+      </div>
+  
+    </header>
+  <!--------------------------------------------------End Header------------------------------------------>
+     
+  <!------------------------------------------Start features---------------------------------------------->
+      <article id="salma">
+        <h1 class="titre">Vendre ou louer sans agence n’a jamais été aussi simple !</h1>
+        <div class="cards">
+          <div class="card">
+            <div class="card__icon">
+              <i class="fas fa-globe-americas"  style="width: 75px; height: 75px;"></i>
+            </div>
+            <div class="card__content">
+              <div class="card__content">Mise en valeur</div>
+              <div class="card__content">
+                <p>Pour attirer les visiteurs, Ivendi se charge des photos professionnelles,
+                   la visite virtuelle, le plan 2D et l’estimation du prix du marché</p>
+              </div>
+            </div>
+    
+          </div>
+    
+          <div class="card">
+            <div class="card__icon">
+              <i class="fas fa-trophy"  style="width: 75px; height: 75px;"></i>
+            </div>
+            <div class="card__content">
+              <div class="card__content">Grande visibilité</div>
+              <div class="card__content">
+                <p>Pour trouver un preneur, votre annonce est diffusée sur Ivendi.
+                  ma et sur plus de 20 sites web spécialisés au Maroc et à l’étranger</p>
+              </div>
+            </div>
+          </div>
+    
+          <div class="card">
+            <div class="card__icon">
+              <i class="fas fa-map-marker-alt"  style="width: 75px; height: 75px;"></i>
+            </div>
+            <div class="card__content">
+              <div class="card__content">Accompagnement</div>
+              <div class="card__content">
+                <p>Tout au long de la vente, le conseiller immobilier assure un suivi,
+                   vous bénéficiez gratuitement de l’assistance juridique jusqu’à la vente</p>
+              </div>
+            </div>
+          </div>
+    
+          <div class="card">
+            <div class="card__icon">
+              <i class="fas fa-lock"  style="width: 75px; height: 75px;"></i>
+            </div>
+            <div class="card__content">
+    
+              <div class="card__content">Acheter dans le neuf</div>
+              <div class="card__content">
+                <p>Que vous souhaitiez acheter pour habiter ou pour investir, un logement neuf vous permet 
+                  de bénéficier d’un financement via le Prêt à Taux Zéro ou d’une fiscalité incitative. 
+               </p>
+              </div>
+            </div>
+          </div>
+    
+    
+          <div class="card">
+            <div class="card__icon">
+              <i class="fab fa-angular"  style="width: 75px; height: 75px;"></i>
+            </div>
+            <div class="card__content">
+    
+              <div class="card__content">Votre futur quartier</div>
+              <div class="card__content">
+                <p>Localisez simplement les commerces, les transports, les écoles et tous les autres points d’intérêt
+                   autour du bien qui vous intéresse. Avec également des statistiques utiles, .</p>
+              </div>
+            </div>
+          </div>
+    
+          <div class="card">
+            <div class="card__icon">
+              <i class="fa fa-key" aria-hidden="true"  style="width: 75px; height: 75px;"></i>
+            </div>
+            <div class="card__content">
+              <div class="card__title">
+    
+                <div class="card__content">Petits & Grands projets</div>
+                <div class="card__content">
+                  <p>Notre bureau d’études est en capacité d’intervenir sur des maisons, logements collectifs,
+                     et bâtiments tertiaires (Bureaux, Salles de sport, Enseignement, Etablissement de santé, bâtiments artisanaux)</p>
+                </div>
+              </div>
+              <div class="card__paragraph"></div>
+            </div>
+          </div>
+        </div>
+      </article>
+  <!--------------------------------------------End features---------------------------------------------->
+  <!-----------------------------------------StartBook with me-------------------------------------------->
+    <div class="item4">
+      <h1 class="item4__title"> Clients d'histoire </h1>
+     <div class="item4__img">
+       <img class="item4__img--img1" src="img/gal-7.jpeg" alt="story-image">
+       <img class="item4__img--img2" src="img/gal-4.jpeg" alt="story-image">
+     </div>
+     <div class="item4__story">
+       <h4>Client Heureux</h4>
+       <p>Proin ex ipsum, facilisis id tincidunt sed, vulputate in lacus. 
+         Donec pharetra faucibus leo, vitae vestibulum leo scelerisque eu.
+         Proin ex ipsum, facilisis id tincidunt sed, vulputate in lacus. 
+          Donec pharetra faucibus leo, vitae vestibulum leo scelerisque eu</p>
+          <a href="#modal2" class="modal2-open">  
+  <label class="btn" for="modal-1">BOOK WITH ME</label>
+</a>
+     </div>
+   
+      </div>
+      <input class="modal-state" id="modal-1" type="checkbox" />
+<div class="modal">
+  <label class="modal__bg" for="modal-1"></label>
+  <div class="modal__inner">
+    <label class="modal__close" for="modal-1"></label>
+
+    <div class="modal__image">
+      <img src="./img/house-2.jpeg" alt="" />
+      <img src="./img/gal-1.jpeg" alt="" />
+    </div>
+    <div class="modal__titles">
+      <h2>NE TARDE PAS</h2>
+      <h4>Lisez les termes avant de choisir</h4>
+    </div>
+    <div class="modal__paraghraph">
+      <p>Aliquam in sagittis nulla. Curabitur euismo diam eget risus venenatis, sed dictum Class aptent taciti
+        sociosqu ad litora torquent per conubia nostra, inceptos himenaeos.</p>
+
+      <p> Aliquam in sagittis nulla. Curabitur euismod diam eget risus venenatis, dictum lectus bibendum. Nunc
+        nunc nisi, hendrerit eget lot nisi id velit. quis nisi eget imperdiet.</p>
+    </div>
+    <div class="btn-2" for="modal-1">BOOK NOW</div>
+  </div>
+</div> 
+  <!-------------------------------------------End Book with me------------------------------------------->
+  <!--------------------------------------------Start Maisons--------------------------------------------->
+  
+     <section class=maison> 
+
+      <h1>Nos propriétés vedettes</h1>
+      <div class="maison_card">
+        <img src="img/house-1.jpeg">
+        <input   class="Btn" type="button" value="Maison de familles">
+        <div class="icon">
+        <h3><i class="fas fa-map-marker-alt"></i> Maroc</h3>
+        <h3><i class="fas fa-user"></i> 4 rooms</h3>
+      </div>
+      <div class="icon">
+        <h3><i class="fas fa-location-arrow"></i>230m²</h3>
+        <h3><i class="fas fa-tags"></i>50M MAD</h3>
+        </div>
+        <a href="contactez.html" target="_blank"> <button><i class="fas fa-phone-volume"></i> Contacter agents 
+        </button></a>
+      </div>
+
+
+        
+      <div class="maison_card">
+        <img src="img/house-5.jpeg">
+        <input  class="Btn" type="button" value="Villas">
+        <div class="icon">
+        <h3><i class="fas fa-map-marker-alt"></i> Maroc</h3>
+        <h3><i class="fas fa-user"></i> 8 rooms</h3>
+        </div>
+        <div class="icon">
+        <h3><i class="fas fa-location-arrow"></i>560m²</h3>
+        <h3><i class="fas fa-tags"></i>100M MAD</h3>
+        </div>
+        <a href="contactez.html" target="_blank"> <button><i class="fas fa-phone-volume"></i> Contacter agents 
+        </button></a>
+      </div>
+
+        
+
+
+      <div class="maison_card">
+        <img src="img/house-4.jpeg">
+        <input class="Btn" type="button" value="Maison d'hotes">
+        <div class="icon">
+        <h3><i class="fas fa-map-marker-alt"></i> Maroc</h3>
+        <h3><i class="fas fa-user"></i> 10 rooms</h3>
+        </div>
+        <div class="icon">
+        <h3><i class="fas fa-location-arrow"></i>1000m²</h3>
+        <h3><i class="fas fa-tags"></i>180M MAD</h3>
+        </div>
+        <a href="contactez.html" target="_blank"> <button><i class="fas fa-phone-volume"></i> Contacter agents 
+        </button></a>
+      </div>
+
+      <div class="maison_card">
+        <img src="img/house-4.jpeg">
+        <input  class="Btn" type="button" value="Villa luxe">
+          <div class="icon">
+          <h3><i class="fas fa-map-marker-alt"></i> Maroc</h3>
+          <h3><i class="fas fa-user"></i> 12 rooms</h3>
+          </div>
+          <div class="icon">  
+          <h3><i class="fas fa-location-arrow"></i>1200m²</h4>
+          <h3><i class="fas fa-tags"></i>220M MAD</h5>
+          </div>
+          <a href="contactez.html" target="_blank"> <button><i class="fas fa-phone-volume"></i> Contacter agents 
+          </button></a>
+      </div>
+
+       </div>
+
+       <div class="maison_card">
+        <img src="img/gal-8.jpeg">
+        <input class="Btn"  type="button" value="Villa luxe">
+        <div class="icon">
+        <h3><i class="fas fa-map-marker-alt"></i> Maroc</h3>
+        <h3><i class="fas fa-user"></i> 12 rooms</h3>
+        </div>
+        <div class="icon">
+        <h3><i class="fas fa-location-arrow"></i>1200m²</h3>
+        <h3><i class="fas fa-tags"></i>220M MAD</h3>
+        </div>
+        <a href="contactez.html" target="_blank"> <button><i class="fas fa-phone-volume"></i> Contacter agents 
+        </button></a>
+       </div>
+
+      <div class="maison_card">
+        <img src="img/gal-11.jpeg">
+        <input class="Btn" type="button" value="Palace">
+        <div class="icon">
+        <h3><i class="fas fa-map-marker-alt"></i> Maroc</h3>
+        <h3><i class="fas fa-user"></i> 20 rooms</h3>
+        </div>
+        <div class="icon">
+        <h3><i class="fas fa-location-arrow"></i>1500m²</h3>
+        <h3><i class="fas fa-tags"></i>300M MAD</h3>
+        </div>
+        <a href="contactez.html" target="_blank"> <button><i class="fas fa-phone-volume"></i> Contacter agents 
+        </button></a>
+      </div>
+       </div>
+
+     
+
+      </div>
+    </section>
+
+ <!---------------------------------------------End Maisons---------------------------------------------->
+ <!---------------------------------------------Start Gallerie------------------------------------------->
+
+ <div class="item6">
+   <h1>Trouvez l’inspiration pour votre maison !
+  </h1>
+
+   
+ 
+  <div class="gallery">
+      <figure class="gallery__item gallery__item--1">
+          <img src="./img/gal-1.jpeg" alt="Gallery image 1" class="gallery__img">
+      </figure>
+      <figure class="gallery__item gallery__item--2">
+          <img src="./img/gal-14.jpeg" alt="Gallery image 2" class="gallery__img">
+      </figure>
+      <figure class="gallery__item gallery__item--3">
+          <img src="./img/gal-10.jpeg" alt="Gallery image 3" class="gallery__img">
+      </figure>
+      <figure class="gallery__item gallery__item--4">
+          <img src="./img/gal-2.jpeg" alt="Gallery image 4" class="gallery__img">
+      </figure>
+      <figure class="gallery__item gallery__item--5">
+          <img src="./img/gal-3.jpeg" alt="Gallery image 5" class="gallery__img">
+      </figure>
+      <figure class="gallery__item gallery__item--6">
+          <img src="./img/gal-4.jpeg" alt="Gallery image 6" class="gallery__img">
+      </figure>
+  </div>
+</div>
+  <!-----------------------------------------------End Gallerie---------------------------------------->
+  <!---------------------------------------------Start Footer------------------------------------------>
+    <div class="item7">
+     <div class="item7__wrapper">
+       <div class="item7__wrapper--list">
+         <ul>
+           <a href="#" class="wrapper__list--link"><li class="wrapper__list--items">Maison de rêves</li></a>
+           <a href="#" class="wrapper__list--link"><li class="wrapper__list--items">Proposition</li></a>
+           <a href="#" class="wrapper__list--link"><li class="wrapper__list--items">Plan</li></a>
+           <a href="#" class="wrapper__list--link"><li class="wrapper__list--items">Contactez-nous</li></a>
+           <a href="#" class="wrapper__list--link"><li class="wrapper__list--items">Soumettez votre</li></a>
+           <a href="#" class="wrapper__list--link"><li class="wrapper__list--items">Nous rejoindre</li></a>
+         </ul>
+       </div>
+       <div class="item7__logo">
+         <img class="item7__logo--size" src="./img/logo.png" alt="logo">
+       </div>
+       <div class="item7__info">
+       <input class="item7__info--email" type="email" placeholder="Email">
+       <button  class="item7__info--subscribe">Subscribe</button>
+       <a href="https://youcode.ma/" class="item7__info--youcode">youcode.ma</a>
+       <p class="item7__info--copyright">&copy; All right reserved #CLASSE1</p>
+      </div>
+     </div>
+  
+    </div>
+  <!-----------------------------------------End Footer---------------------------------------------->
 
   <script src="js/all.js"></script>
 

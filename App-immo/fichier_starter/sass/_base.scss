@@ -1,3 +1,4 @@
+@import 'variables';
 * {
     margin: 0%;
     padding: 0%;
@@ -5,7 +6,7 @@
   }
 
   body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
     font-size: 18px;
   }
 
@@ -16,13 +17,18 @@
     grid-template-columns: 10% auto;
   
     grid-auto-rows: minmax(200px ,auto);
-    background-color: blue;
+   
   }
-  .container > div{
-    background-color: skyblue;
-
-  }
+  
   .item1 {
   grid-row-start: 1;
   grid-row-end: 7;
+  
+}
+h1{
+  padding-top: 3%;
+  padding-bottom: 2%;
+  text-align: center;
+  color:$color-gry ;
+
 }
