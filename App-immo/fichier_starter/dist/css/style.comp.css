@@ -9,7 +9,7 @@
     width: 50%; }
 
 .home {
-  background-image: url("/dist/img/back.jpg");
+  background-image: url("/img/back.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   display: grid;
